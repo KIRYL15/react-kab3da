@@ -5,7 +5,7 @@ type OnOffPropsType = {
     onChange: (on:boolean) => void
 }
 
-export function UncontrolledOnOff(props: OnOffPropsType) {
+export function OnOff(props: OnOffPropsType) {
     const onStyle = {
         width: '30px',
         height: '20px',
