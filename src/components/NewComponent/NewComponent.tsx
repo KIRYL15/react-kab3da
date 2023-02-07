@@ -10,7 +10,7 @@ export const NewComponent = (props: NewComonentType) => {
     const topCars = [
         {manufacturer: 'BMW', model: 'm5cs'},
         {manufacturer: 'Mercedes', model: 'e63s'},
-        {manufacturer: 'Audi', model: 'rs6'}
+        {manufacturer: 'Audi', model: 'rs6'},
     ]
     return (
         <table>
@@ -26,7 +26,6 @@ export const NewComponent = (props: NewComonentType) => {
                     </tr>
                 )
             })}
-
         </table>
 
         // <ul>

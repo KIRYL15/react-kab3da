@@ -95,20 +95,20 @@ export function App() {
             </div>*/}
             <Button name={"MyChanel-1"} callBack={() => Button1('Vasya', 21)}/>
             <Button name={"MyChanel-2"} callBack={() => Button2('Ivan')}/>
-            <UncontrolledOnOff />
+            <UncontrolledOnOff onChange={()=>{}} defaultOn={ onOff}/>
             <OnOff
                 onChange={(on) => setOnOff(on)}
                 on={onOff}/>
             <PageTitle
                 title="This is APP component"/>
-            <UncontolledAccordion
+            <UncontolledAccordion onChange={()=>{}}
                 titleValue='Users'/>
             <Accordion
                 titleValue='Menu'
                 collapsed={accordionCollapsed}
                 onChange={() => setAccordionCollapsed(!accordionCollapsed)}
             />
-            <UncontrolledRating />
+            <UncontrolledRating defaultValue={3} onChange={()=>{}}/>
             <Rating value={rating}
                     onClick={setRating}/>
             <NewComponent students={students}/>

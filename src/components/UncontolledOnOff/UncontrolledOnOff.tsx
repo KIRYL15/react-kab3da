@@ -34,9 +34,7 @@ export function UncontrolledOnOff(props: OnOffPropsType) {
         border: '1px solid black',
         display: 'inline-block',
         marginLeft: '10px',
-        backgroundColor: on ? 'green' : 'red'
-
-
+        backgroundColor: on ? 'green' : 'red',
     }
     const onClicked = ()=>{
         setOn(true)
