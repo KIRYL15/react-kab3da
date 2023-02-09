@@ -7,6 +7,7 @@ const Test = () => {
             <h2>Dev branch commit-1</h2>
             <h2>Dev branch commit-2</h2>
             <h2>developer / login branch commit</h2>
+            <h2>developer / login branch commit-2</h2>
         </div>
     );
 };
